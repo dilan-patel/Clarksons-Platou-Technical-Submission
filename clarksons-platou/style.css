@@ -9,7 +9,6 @@ body {
 }
 
 .banner {
-
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
@@ -65,7 +64,6 @@ body {
     backface-visibility: hidden;
 }
 
-
 h1 {
     margin: auto;
     font-size: 1em;
@@ -75,7 +73,6 @@ h1 {
 /*Grid structure when screen width > 960px*/
 .grid-table {
     height: 30px;
-
     width: 100vw;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -88,9 +85,6 @@ h1 {
     background-color: #efefef;
     color: #666666;
     padding: 7px;
-}
-
-.column-text {
 }
 
 #div1 {
